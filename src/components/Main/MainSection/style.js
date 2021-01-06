@@ -15,3 +15,15 @@ export const ImgSimulator = styled.div`
 export const ArticleTitle = styled.h1`
   text-transform: capitalize;
 `;
+
+export const Tags = styled.div`
+  display: flex;
+`;
+
+export const Span = styled.span`
+  margin: 5px 15px;
+  padding: 10px 15px;
+  background: #e5f3f7;
+  color: blue;
+  border-radius: 5px;
+`;
