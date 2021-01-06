@@ -11,6 +11,7 @@ import {
 } from './style';
 
 import { ArticleDetails } from './ArticleDetails/index';
+import { ArticleFooter } from './ArticleFooter/index';
 
 import Data from '../../../../mockup/article.json';
 
@@ -34,6 +35,7 @@ export const MainSection = () => {
       <Button type="button" onClick={handleButton}>
         Guardar
       </Button>
+      <ArticleFooter />
     </ArticleSection>
   );
 };
