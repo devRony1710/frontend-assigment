@@ -5,4 +5,10 @@ export const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
   }
+
+  @media screen and (max-width: 700px) {
+    body {
+      width: 100%;
+    }
+  }
 `;

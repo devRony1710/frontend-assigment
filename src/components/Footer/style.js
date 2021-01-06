@@ -5,6 +5,11 @@ export const FooterContainer = styled.div`
   grid-template-columns: 20% 80%;
   background: #1d80c7;
   height: 100px;
+
+  @media screen and (max-width: 700px) {
+    grid-template-columns: 1fr;
+    height: 200px;
+  }
 `;
 
 export const FooterImgContainer = styled.div`
@@ -17,6 +22,10 @@ export const FooterDetails = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-around;
+
+  @media screen and (max-width: 700px) {
+    flex-direction: column;
+  }
 `;
 
 export const FooterLink = styled.a`

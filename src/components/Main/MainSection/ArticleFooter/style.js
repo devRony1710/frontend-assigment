@@ -9,6 +9,10 @@ export const ArticleEvents = styled.div`
   border-bottom-right-radius: 15px;
   margin: 20px;
   padding: 15px;
+
+  @media screen and (max-width: 700px) {
+    flex-direction: column;
+  }
 `;
 
 export const EventsButtons = styled.button`

@@ -10,13 +10,13 @@ export const SecondMenu = () => {
   return (
     <SecondMenuContainer>
       <a href="/">
-        <MdNotificationsNone size="40px" color="white" />
+        <MdNotificationsNone color="white" />
       </a>
       <a href="/">
         <ImgProfile src={DEFAULT_IMG} />
       </a>
       <a href="/">
-        <MdSettings size="40px" color="white" />
+        <MdSettings color="white" />
       </a>
     </SecondMenuContainer>
   );

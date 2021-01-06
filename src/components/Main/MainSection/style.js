@@ -5,6 +5,9 @@ export const ArticleSection = styled.div`
   background: #fff;
   border: 0 solid #fff;
   border-radius: 20px;
+  @media screen and (max-width: 700px) {
+    width: auto;
+  }
 `;
 
 export const ImgSimulator = styled.div`
@@ -18,6 +21,10 @@ export const ArticleTitle = styled.h1`
 
 export const Tags = styled.div`
   display: flex;
+
+  @media screen and (max-width: 700px) {
+    flex-direction: column;
+  }
 `;
 
 export const Span = styled.span`

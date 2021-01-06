@@ -7,12 +7,14 @@ export const SecondMenuContainer = styled.div`
   align-items: center;
   justify-content: center;
   margin: 7px 0;
+  font-size: 35px;
 
   & a {
     margin: 0 10px;
   }
 
   @media screen and (max-width: 700px) {
+    font-size: 20px;
   }
 `;
 
@@ -22,4 +24,8 @@ export const ImgProfile = styled.img`
   height: 40px;
   width: 40px;
   object-fit: cover;
+  @media screen and (max-width: 700px) {
+    height: 20px;
+    width: 20px;
+  }
 `;

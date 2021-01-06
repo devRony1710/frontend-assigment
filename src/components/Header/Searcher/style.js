@@ -33,4 +33,15 @@ export const SearcherIcon = styled.div`
   justify-content: center;
   background: white;
   border-top-left-radius: 12px;
+  @media screen and (max-width: 700px) {
+    height: 25px;
+    width: 25px;
+  }
+`;
+
+export const SearcherLink = styled.a`
+  font-size: 25px;
+  @media screen and (max-width: 700px) {
+    font-size: 20px;
+  }
 `;

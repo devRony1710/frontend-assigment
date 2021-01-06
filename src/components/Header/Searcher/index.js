@@ -9,7 +9,9 @@ export const SearcherContainer = () => {
   return (
     <HeaderSearcher>
       <SearcherIcon>
-        <FaSistrix size="25px" />
+        <a href="/">
+          <FaSistrix />
+        </a>
       </SearcherIcon>
       <SearcherInput placeholder="Qué estás buscando?"></SearcherInput>
     </HeaderSearcher>
