@@ -6,7 +6,7 @@ export const MainContainer = styled.div`
   grid-gap: 20px;
   height: auto;
   padding: 50px;
-  background: #c3c3c3;
+  background: #e1e1e1;
 
   @media screen and (max-width: 700px) {
     grid-template-columns: 1fr;

@@ -6,6 +6,8 @@ import {
   ArticleTitle,
   Tags,
   Span,
+  ArticleContent,
+  Button,
 } from './style';
 
 import { ArticleDetails } from './ArticleDetails/index';
@@ -13,6 +15,11 @@ import { ArticleDetails } from './ArticleDetails/index';
 import Data from '../../../../mockup/article.json';
 
 export const MainSection = () => {
+  //simulando un evento al usar el boton
+  const handleButton = () => {
+    alert('Articulo Guardado');
+  };
+
   return (
     <ArticleSection>
       <ImgSimulator></ImgSimulator>
@@ -23,7 +30,10 @@ export const MainSection = () => {
         <Span>Pediatria</Span>
         <Span>Obstetricia</Span>
       </Tags>
-      <div dangerouslySetInnerHTML={{ __html: Data.content }} />
+      <ArticleContent dangerouslySetInnerHTML={{ __html: Data.content }} />
+      <Button type="button" onClick={handleButton}>
+        Guardar
+      </Button>
     </ArticleSection>
   );
 };

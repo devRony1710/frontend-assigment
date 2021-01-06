@@ -27,3 +27,15 @@ export const Span = styled.span`
   color: blue;
   border-radius: 5px;
 `;
+
+export const ArticleContent = styled.div``;
+
+export const Button = styled.button`
+  cursor: pointer;
+  background: #29ff42;
+  border: none;
+  margin: 10px 20px;
+  padding: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+`;
