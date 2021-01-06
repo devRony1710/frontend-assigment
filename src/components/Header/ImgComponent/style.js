@@ -8,4 +8,9 @@ export const ImgContainer = styled.div`
 
 export const HeaderLogo = styled.img`
   object-fit: cover;
+
+  @media screen and (max-width: 700px) {
+    height: auto;
+    width: 100%;
+  }
 `;

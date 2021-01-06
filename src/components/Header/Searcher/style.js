@@ -6,6 +6,11 @@ export const HeaderSearcher = styled.div`
   align-items: center;
   justify-content: flex-start;
   background: inherit;
+
+  @media screen and (max-width: 700px) {
+    justify-content: flex-end;
+    margin: 0 10px;
+  }
 `;
 
 export const SearcherInput = styled.input`
@@ -14,6 +19,10 @@ export const SearcherInput = styled.input`
   margin-left: 10px;
   border: none;
   border-bottom-right-radius: 20px;
+
+  @media screen and (max-width: 700px) {
+    display: none;
+  }
 `;
 
 export const SearcherIcon = styled.div`

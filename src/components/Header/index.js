@@ -4,6 +4,7 @@ import { FirstMenu } from './FirstMenu';
 // components
 import { HeaderImg } from './ImgComponent/index';
 import { SearcherContainer } from './Searcher/index';
+import { SecondMenu } from './SecondMenu/index';
 
 // styles
 import { HeaderContainer } from './style';
@@ -14,6 +15,7 @@ export const Header = () => {
       <HeaderImg />
       <SearcherContainer />
       <FirstMenu />
+      <SecondMenu />
     </HeaderContainer>
   );
 };
