@@ -1,4 +1,5 @@
 import React from 'react';
+import { FirstMenu } from './FirstMenu';
 
 // components
 import { HeaderImg } from './ImgComponent/index';
@@ -12,6 +13,7 @@ export const Header = () => {
     <HeaderContainer>
       <HeaderImg />
       <SearcherContainer />
+      <FirstMenu />
     </HeaderContainer>
   );
 };

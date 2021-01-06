@@ -11,7 +11,7 @@ export const SearcherContainer = () => {
       <SearcherIcon>
         <FaSistrix size="25px" />
       </SearcherIcon>
-      <SearcherInput></SearcherInput>
+      <SearcherInput placeholder="Qué estás buscando?"></SearcherInput>
     </HeaderSearcher>
   );
 };
